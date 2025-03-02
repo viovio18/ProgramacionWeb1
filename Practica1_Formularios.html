@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Práctica 1 Formularios </title>
+
+</head>
+
+<body style="background-color: #ffef95;">
+
+	<center>
+
+		<h1> Registro para Pedidos Online </h1>
+		<img src="gandhi_logo.png" height="80" width="220">
+
+	</center>
+
+
+
+	<center>
+
+	<fieldset>
+		
+		<legend> Datos del cliente </legend>
+
+		<table>
+			
+			<tr>
+				
+				<td> <label for="user"> Nombre: </label> </br>
+				<input type="text" name="name" id="name" placeholder="Nombre" size="15" maxlength="30" title="Nombre"> </td> </br>
+
+				<td> <label for="apepat"> Apellido Paterno: </label> </br>
+				<input type="text" name="apepat" id="apepat" placeholder="Apellido Paterno" size="15" maxlength="30" title="Apellido Paterno"> </br> </td>
+
+				<td> <label for="apemat"> Apellido Materno: </label> </br>
+				<input type="text" name="apemat" id="apemat" placeholder="Apellido Materno" size="15" maxlength="30" title="Apellido Materno"> </br> </td> 
+
+			</tr>
+
+
+
+			<tr>
+				
+				<td> <label for="user"> Username: </label> </br>
+				<input type="text" name="user" id="user" placeholder="Usuario" size="15" maxlength="30" title="Usuario"> </td> </br>
+
+				<td> <label for="passw"> Password: </label> </br>
+				<input type="text" name="passw" id="passw" placeholder="Password" size="15" maxlength="30" title="Password"> </br> </td>
+
+				<td> <label for="fechareg"> Fecha de registro: </label> </br>
+				<input type="date" name="fechareg" id="fechareg"> </br> </td>
+
+			</tr>
+
+		</table>
+
+	</fieldset>
+
+	</center>
+
+
+
+	<center>
+
+	<fieldset>
+		
+		<legend> Datos para Facturar </legend>
+
+		<table>
+			
+			<tr>
+				
+				<td> 
+
+					<label for="pais"> País: </label> </br>
+
+					<select name="pais">
+
+					<option selected> Seleccione País </option>
+					<option> México </option>
+					<option> Canadá </option>
+					<option> Estados Unidos </option>
+					<option> Francia </option>
+					<option> Inglaterra </option>
+					<option> Australia </option>
+					<option> España </option>
+					<option> Rusia </option>
+
+				</select> </td>
+
+				<td> 
+
+					<label for="city"> Ciudad: </label> </br>
+
+					<select name="city">
+
+					<option selected> Seleccione Ciudad </option>
+					<option> Ciudad de México </option>
+					<option> Ottawa </option>
+					<option> Washington DC </option>
+					<option> París </option>
+					<option> Londres </option>
+					<option> Canberra </option>
+					<option> Madrid </option>
+					<option> Moscú </option>
+
+				</select> </td>
+
+				<td> <label for="strt"> Calle del domicilio: </label> </br>
+				<input type="text" name="strt" id="strt" placeholder="Calle" size="15" maxlength="30" title="Calle"> </br> </td>
+
+			</tr>
+
+
+
+			<tr>
+				
+				<td> <label for="numdom"> Número del domicilio: </label> </br>
+				<input type="text" name="numdom" id="numdom" placeholder="Núm. Domicilio" size="15" maxlength="30" title="Número del domicilio"> </td> </br>
+
+				<td> <label for="col"> Colonia: </label> </br>
+				<input type="text" name="col" id="col" placeholder="Colonia" size="15" maxlength="30" title="Colonia"> </br> </td>
+
+				<td> <label for="correo"> Correo electrónico: </label> </br>
+				<input type="email" name="correo" id="correo" placeholder="Correo" size="15" maxlength="30" title="Correo"> </br> </td>
+
+			</tr>
+
+			<tr>
+				
+				<td> <label for="rfc"> R.F.C. </label> </br>
+				<input type="text" name="rfc" id="rfc" placeholder="R.F.C." size="15" maxlength="30" title="R.F.C."> </td> </br>
+
+				<td> <label for="codpos"> C.P. </label> </br>
+				<input type="text" name="codpos" id="codpos" placeholder="Código Postal" size="15" maxlength="30" title="Código Postal"> </br> </td>
+
+				<td> <label for="terms"> Acepto Términos y Condiciones </label>
+				<input type="checkbox" name="terms" id="terms" value="1"> </br>
+				<input type="submit" name="enviar" id="enviar" value="Enviar"> </td>
+
+			</tr>
+
+		</table>
+
+	</fieldset>
+
+	</center>
+
+	<footer>
+
+		<h2 style="text-align: right;"> Marzo 2025, S.L.P. </h2>
+
+	</footer>
+
+</body>
+
+</html>
