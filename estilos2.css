@@ -4,7 +4,6 @@ ul{
 	margin: 0px;
 	padding: 0px;
 	height: 100%;
-	position: fixed;
 }
 
 li a{
@@ -17,7 +16,7 @@ li a{
 
 li a:hover{
 	background-color: #a75c29;
-} /* ID para solo un elemento, no se puede usar repetidas veces */
+} 
 
 li .activo{
 	background-color: #c57139;
