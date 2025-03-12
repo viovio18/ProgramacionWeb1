@@ -1,0 +1,25 @@
+ul{
+	list-style-type: none;
+	width: 20%;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	position: fixed;
+}
+
+li a{
+	background-color: #f7a46d;
+	color: black;
+	display: block;
+	padding: 16px;
+	text-decoration: none;
+}
+
+li a:hover{
+	background-color: #a75c29;
+} /* ID para solo un elemento, no se puede usar repetidas veces */
+
+li .activo{
+	background-color: #c57139;
+	color: white;
+}
