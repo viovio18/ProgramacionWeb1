@@ -1,0 +1,60 @@
+.capa1{
+	margin-left: 25%;
+	padding: 12px;
+}
+
+ul{
+	list-style-type: none;
+	width: 20%;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	position: fixed;
+	background-color: #f7a46d
+}
+
+li a{
+	background-color: #f7a46d;
+	color: black;
+	display: block;
+	padding: 16px;
+	text-decoration: none;
+}
+
+li a:hover{
+	background-color: #a75c29;
+} 
+
+li .activo{
+	background-color: #c57139;
+	color: white;
+}
+
+h1{
+	font-family: "Afacad Flux", sans-serif;
+}
+
+h2{
+	font-family: "Teko", sans-serif;
+}
+
+@font-face{
+	font-family: "fuente1";
+	src: url("Smooch_Sans/SmoochSans-VariableFont_wght.ttf") format("truetype");
+}
+p{
+	font-family: "fuente1";
+	font-size: 20px;
+	text-align: justify;
+}
+
+@font-face{
+	font-family: "fuente2";
+	src: url("Grandstander/Grandstander-VariableFont_wght.ttf") format("truetype");
+}
+
+.t2{
+	font-family: "fuente2";
+	font-size: 17px;
+	text-align: justify;
+}
