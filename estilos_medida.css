@@ -1,0 +1,30 @@
+body{
+	background-color: #ccddff;
+}
+
+h1{
+	font-size: 40px;
+}
+
+h2{
+	text-align: center;
+	font-size: 35px;
+}
+
+div{
+	background-color: #a0b2d6;
+	padding: 5px;
+	margin: 25px;
+	border: 1px solid black;
+}
+
+table{
+	text-align: center;
+}
+
+td{
+	border: 2px solid black;
+	background-color: white;
+	padding: 15px;
+	margin: 15px;
+}
