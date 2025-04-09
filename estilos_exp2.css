@@ -1,0 +1,38 @@
+body{
+	background-color: #ece8ff;
+}
+
+h1, h2{
+	text-align: center;
+}
+
+hr{
+	width: 60%;
+	border-color: #968dc6;
+	border-style: dashed;
+}
+
+button{
+	width: 25%;
+	padding: 15px;
+	border: 1px solid black;
+	border-radius: 10px;
+	background-color: black;
+	color: white;
+}
+
+button:hover{
+	width: 25%;
+	padding: 15px;
+	border: 1px solid black;
+	border-radius: 10px;
+	background-color: #968dc6;
+	color: white;
+}
+
+img{
+	width: 250px;
+	height: 200px;
+}
+
+
