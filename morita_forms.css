@@ -1,0 +1,150 @@
+body {
+	background-color: #a29abb;
+	font-family: montserrat;
+}
+
+td {
+	padding: 15px;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
+
+@font-face {
+	font-family: "fuente1";
+	src: url("Montserrat/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
+
+p {
+	font-family: "fuente1";
+	font-size: 15px;
+	text-align: left;
+	padding: 15px;
+	margin: 10px;
+	color: black;
+}
+
+img {
+	border-radius: 100px;
+}
+
+iframe {
+	height: 600px;
+	width: 600px;
+	border-radius: 25px;
+}
+
+.navbar {
+	display: flex;
+	justify-content: flex-end;
+	padding: 10px 20px;
+	background: rgba(0, 0, 0, 0.2);
+}
+
+.navbar a {
+	color: white;
+	text-decoration: none;
+	margin: 0 10px;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+
+.navbar a:hover {
+	background: rgba(255, 255, 255, 0.3);
+}
+
+.footer{
+    padding: 20px;
+    margin-top: 25px;
+  	background: rgba(0, 0, 0, 0.3);
+}
+        
+.footer a{
+ 	color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.formulario-registro {
+	max-width: 600px;
+	background-color: rgba(255, 255, 255, 0.9);
+	padding: 20px;
+	margin: 20px;
+	border-radius: 15px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+	font-family: 'fuente1', sans-serif;
+	text-align: left;
+}
+
+.formulario-registro label {
+	font-weight: bold;
+	display: block;
+	margin-top: 10px;
+}
+
+.formulario-registro input[type="text"],
+.formulario-registro input[type="email"],
+.formulario-registro input[type="tel"],
+.formulario-registro select,
+.formulario-registro textarea {
+	width: 100%;
+	padding: 10px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	font-family: 'fuente1', sans-serif;
+	box-sizing: border-box;
+}
+
+.formulario-registro select {
+	background-color: #f8f8f8;
+}
+
+.checkbox-group {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+.checkbox-group label {
+	width: 45%;
+}
+
+.boton-enviar {
+	background-color: black;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+.boton-enviar:hover {
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+}
+
+.factura {
+	background-color: black;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+.factura:hover {
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+}

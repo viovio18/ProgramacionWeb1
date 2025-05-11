@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="morita_forms.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+	<title>Registro MoritaSLP</title>
+</head>
+
+<body>
+
+	<center>
+		<header>
+			<div class="navbar">
+				<a href="#">Productos</a>
+				<a href="#">Ofertas</a>
+				<a href="#">Mapa</a>
+				<a href="#">Sign in</a>
+				<a href="#" style="background: black;">Register</a>
+			</div>
+		</header>
+	</center>
+
+	<h1>Formulario de Registro</h1>
+	<p>Llena tus datos personales y selecciona los productos que te gustaría comprar.</p>
+
+	<center>
+		<form action="#" method="post" class="formulario-registro">
+
+			<label for="nombre">Nombre completo:</label><br>
+			<input type="text" id="nombre" name="nombre" required><br><br>
+
+			<label for="correo">Correo electrónico:</label><br>
+			<input type="email" id="correo" name="correo" required><br><br>
+
+			<label for="telefono">Teléfono:</label><br>
+			<input type="tel" id="telefono" name="telefono"><br><br>
+
+			<hr> <br>
+
+			<label>¿Qué productos te interesan?</label><br>
+				<div class="checkbox-group">
+					<label><input type="checkbox" name="producto[]" value="anillos"> Anillos</label><br>
+					<label><input type="checkbox" name="producto[]" value="accesorios"> Accesorios</label><br>
+					<label><input type="checkbox" name="producto[]" value="bocinas"> Bocinas</label><br>
+					<label><input type="checkbox" name="producto[]" value="joyeria"> Joyería</label><br>
+					<label><input type="checkbox" name="producto[]" value="bolsas"> Bolsas</label><br>
+					<label><input type="checkbox" name="producto[]" value="calcetas"> Calcetas</label><br>
+					<label><input type="checkbox" name="producto[]" value="gomitas"> Gomitas</label><br>
+					<label><input type="checkbox" name="producto[]" value="pinzas"> Pinzas</label><br>
+					<label><input type="checkbox" name="producto[]" value="lentes"> Lentes</label><br>
+					<label><input type="checkbox" name="producto[]" value="galletas"> Galletas caseras</label><br>
+					<label><input type="checkbox" name="producto[]" value="snacks"> Snacks saludables</label><br>
+					<label><input type="checkbox" name="producto[]" value="chocobms"> Choco bombas</label><br>
+				</div> <br>
+
+				<hr> <br>
+
+			<label for="comentarios">Comentarios adicionales:</label><br>
+			<textarea id="comentarios" name="comentarios" rows="4"></textarea><br><br>
+
+			<center>
+				<input type="submit" value="Enviar" class="boton-enviar"> <br>
+				<input type="button" value="Generar comprobante" class="factura">
+			</center>
+
+		</form>
+	</center>
+
+	<div class="footer">
+        <p>¡Síguenos en nuestras redes sociales!</p>
+        <a href="#">Facebook</a>
+        <a href="https://www.instagram.com/morita.slp/">Instagram</a>
+        <a href="https://www.tiktok.com/@morita.slp">TikTok</a>
+
+        <p>
+            <a href="#">Preguntas frecuentes</a> |
+            <a href="#">Contacto</a> |
+            <a href="#">Aviso de privacidad</a> |
+            <a href="#">Términos y condiciones</a>
+        </p>
+    </div>
+
+    <footer> Página desarollar para la materia de Programación Web I. Primavera 2025. Universidad Politécnica de San Luis Potosí. </footer>
+
+</body>
+
+</html>
