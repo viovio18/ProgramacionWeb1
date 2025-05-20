@@ -1,0 +1,44 @@
+input[type=text]{
+	width: 80%;
+	border-radius: 25px;
+	padding: 10px;
+}
+
+#formulario{
+	background: lightblue;
+	padding: 15px;
+	border-bottom: 3px;
+}
+
+input[type=text]{
+	border-radius: 25px;
+	padding: 10px;
+}
+
+input[type=button]{
+	border-radius: 25px;
+	padding: 10px;
+	background: black;
+	margin: 1px solid white;
+	color: white;
+}
+
+input[type=button]:hover{
+	border-radius: 25px;
+	padding: 10px;
+	background: white;
+	margin: 1px solid black;
+	color: black;
+}
+
+#tareas div {
+	background: white;
+	border: 1px solid black;
+	padding: 10px;
+	margin-top: 10px;
+	border-radius: 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
