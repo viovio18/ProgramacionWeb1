@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title> Quiz de Frozen </title>
+
+  <link rel="stylesheet" type="text/css" href="design.css">
+
+  <script src="https://www.gstatic.com/charts/loader.js"> </script>
+  <script type="text/javascript" src="registro.js"> </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+
+</head>
+
+<body>
+
+  <h1> ¿Cuánto sabes de Frozen? </h1>
+
+  <form id="quizForm">
+
+    <div class="pregunta">
+
+      <p> 1. ¿Cómo se llama la hermana de Elsa? </p>
+
+      <label> <input type="radio" name="q1" value="Anna"> Anna </label> <br>
+      <label> <input type="radio" name="q1" value="Kristoff"> Kristoff </label> <br>
+      <label> <input type="radio" name="q1" value="Olaf"> Olaf </label>
+
+    </div>
+
+    <div class="pregunta">
+
+      <p> 2. ¿Qué poder tiene Elsa? </p>
+
+      <label> <input type="radio" name="q2" value="Hielo"> Hielo </label> <br>
+      <label> <input type="radio" name="q2" value="Fuego"> Fuego </label> <br>
+      <label> <input type="radio" name="q2" value="Viento"> Viento </label>
+
+    </div>
+
+    <div class="pregunta">
+
+      <p> 3. ¿Cómo se llama el reno de Kristoff? </p>
+
+      <label> <input type="radio" name="q3" value="Sven"> Sven </label> <br>
+      <label> <input type="radio" name="q3" value="Hans"> Hans </label> <br>
+      <label> <input type="radio" name="q3" value="Olaf"> Olaf </label>
+
+    </div>
+
+    <div class="pregunta">
+
+      <p> 4. ¿Quién canta "Let It Go"? </p>
+
+      <label> <input type="radio" name="q4" value="Elsa"> Elsa </label> <br>
+      <label> <input type="radio" name="q4" value="Anna"> Anna </label> <br>
+      <label> <input type="radio" name="q4" value="Kristoff"> Kristoff </label>
+
+    </div>
+
+    <div class="pregunta">
+
+      <p> 5. ¿Qué construye Elsa con su magia? </p>
+
+      <label> <input type="radio" name="q5" value="Un castillo de hielo"> Un castillo de hielo </label> <br>
+      <label> <input type="radio" name="q5" value="Un dragón"> Un dragón </label> <br>
+      <label> <input type="radio" name="q5" value="Un barco"> Un barco </label>
+
+    </div>
+
+    <div class="pregunta">
+
+      <p> 6. ¿Qué personaje es un muñeco de nieve? </p>
+
+      <label> <input type="radio" name="q6" value="Olaf"> Olaf </label> <br>
+      <label> <input type="radio" name="q6" value="Kristoff"> Kristoff </label> <br>
+      <label> <input type="radio" name="q6" value="Hans"> Hans </label>
+
+    </div>
+
+    <div class="pregunta">
+
+      <p> 7. ¿Quién es el villano en la primera película? </p>
+
+      <label> <input type="radio" name="q7" value="Hans"> Hans </label> <br>
+      <label> <input type="radio" name="q7" value="Olaf"> Olaf </label> <br>
+      <label> <input type="radio" name="q7" value="Elsa"> Elsa </label>
+
+    </div>
+
+    <div class="pregunta">
+
+      <p> 8. ¿Dónde vive Elsa al final de Frozen 2? </p>
+
+      <label> <input type="radio" name="q8" value="Bosque Encantado"> Bosque Encantado </label> <br>
+      <label> <input type="radio" name="q8" value="Arendelle"> Arendelle </label> <br>
+      <label> <input type="radio" name="q8" value="Castillo de Hielo"> Castillo de Hielo </label>
+
+    </div>
+
+    <div class="pregunta">
+
+      <p> 9. ¿Qué animal acompaña a Kristoff? </p>
+      <label> <input type="radio" name="q9" value="Reno"> Reno </label> <br>
+      <label> <input type="radio" name="q9" value="Lobo"> Lobo </label> <br>
+      <label> <input type="radio" name="q9" value="Caballo"> Caballo </label>
+
+    </div>
+
+    <div class="pregunta">
+
+      <p> 10. ¿Cómo se llama el reino de Elsa? </p>
+
+      <label> <input type="radio" name="q10" value="Arendelle"> Arendelle </label> <br>
+      <label> <input type="radio" name="q10" value="Corona"> Corona </label> <br>
+      <label> <input type="radio" name="q10" value="Atlantis"> Atlantis </label>
+
+    </div>
+
+    <center>
+
+      <button type="button" onclick="calcular()"> Enviar </button> <br> <br>
+      <button type="button" onclick="generarPDF()">Descargar PDF</button>
+
+
+    </center>
+
+  </form>
+
+  <div id="resultado" style="margin-top:20px;"> </div>
+  <div id="grafico" style="width: 500px; height: 300px;"> </div>
+
+</body>
+
+</html>
